@@ -13,7 +13,7 @@ function Login() {
         e.preventDefault();
         setLoading(true); // Start loading
         try {
-            const response = await axios.post("http://localhost:3000/user/login", {
+            const response = await axios.post("https://instagram-0lng.onrender.com/user/login", {
                 email,
                 password,
             });
